@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <fieldset style="border: solid 2px">
+            <legend>Your Details</legend>
+            <label >Name: <input type="text" name="Name" ></label>
+            <p></p>
+            <label>Email: <input type="text" name="Email" ></label>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset style="border: solid 2px;">
+            <legend>Your Review</legend>
+            How did you hear about us? <select name="">
+                <option value="youtube">youtube</option>
+                <option value="google">google</option>
+                <option value="linkdin">linkdin</option>
+                <option value="facebook">facebook</option>
+                <option value="instagram">instagram</option>
+            </select>
+            <p></p>
+            Rating: <br>
+            <input type="range" name="Rating" value="Rating">
+            <p></p>
+            Would you visit again?<br>
+            <input type="radio" name="Yes" value="Yes">Yes
+            <input type="radio" name="No" value="No">No
+            <input type="radio" name="Maybe" value="Maybe">Maybe
+           <p>Coments:</p>
+            <textarea name="Coments" ></textarea>
+            <p><input type="image" src="./asset/tick.webp" alt="" width="28px"> 
+                <br>
+                <input type="button" name="Submit review" value="Submit review">
+        </fieldset>
+    </form>
+
+
+
+</body>
+</html>
